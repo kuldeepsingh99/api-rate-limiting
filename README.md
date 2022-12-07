@@ -39,6 +39,14 @@ Mysql - here we stored users limit. ex User A is allowed to call 10 API calls in
 
 Redis - here we stored Key Values are stored as well as we cached Mysql User Table also.
 
+### Prerequisite
+
+- Mysql should be running 
+- create a database with name sample
+- execute the script [Create Table Script](https://github.com/kuldeepsingh99/rate-limit/blob/main/src/main/resources/create-table.sql)
+- Insert few record with some limit ex. User A with limit 10 , User B with Limit 20 etc
+- Redis Instance should be running on 6379 port
+
 ### Important Configuration
 
 pom.xml
