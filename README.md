@@ -1,5 +1,9 @@
 # API Rate Limiting With Bucket4J and Redis
 
+- In this tutorial we will learn how to implement api rate limiting in a scaled service. 
+- We will use the [Bucket4J](https://github.com/bucket4j/bucket4j) library to implement it and we will use [Redis](https://redis.io/) as a distributed cache
+- Here we can also set diffrent Rate Limit by Users
+
 ### Problem with Unlimited Rates
 
 If a public API is allowed its users to make an unlimited number of requests per hour, it could lead to:
