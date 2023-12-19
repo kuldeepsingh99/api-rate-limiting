@@ -1,10 +1,14 @@
 package com.portal.ratelimit.exception;
 
+
+import java.io.Serial;
+
 public class UserNotFoundException extends RuntimeException {
 
-	private static final long serialVersionUID = 1L;
+    @Serial
+    private static final long serialVersionUID = 1L;
 
-	public UserNotFoundException(String string) {
-		super(string);
-	}
+    public UserNotFoundException(String string) {
+        super(string);
+    }
 }

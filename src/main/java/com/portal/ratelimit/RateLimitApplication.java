@@ -8,10 +8,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableCaching
 @EnableScheduling
-public class RatelimitApplication {
+public class RateLimitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RatelimitApplication.class, args);
+		SpringApplication.run(RateLimitApplication.class, args);
 	}
 
 }

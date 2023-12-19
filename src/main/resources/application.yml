@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/RedisTest
+    username: postgres
+    password: 1441
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+caching:
+  spring:
+    userListTTL: 60000
